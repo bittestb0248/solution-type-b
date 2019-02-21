@@ -10,10 +10,11 @@ public class Money {
 	private int amount;
 	
 	public Money(int amount) {
+		this.amount=amount;
 	}
 
 	public Money add(Money money) {
-		return null;
+		return money;
 	}
 
 	public Money minus(Money money) {
@@ -26,5 +27,10 @@ public class Money {
 
 	public Money devide(Money money) {
 		return null;
+	}
+	@Override
+	public String toString() {
+		// TODO Auto-generated method stub
+		return super.toString();
 	}
 }
